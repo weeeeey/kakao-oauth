@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+    height: 100%;
+}
+
+@layer components {
+    .center {
+        @apply flex justify-center items-center;
+    }
+    .full {
+        @apply h-full max-w-xl;
+    }
+}
